@@ -3,8 +3,8 @@ body {
     font-family: "Segoe UI", Tahoma, sans-serif;
 }
 
-button img,
-button svg {
+.toolstrip button img,
+.toolstrip button svg {
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
