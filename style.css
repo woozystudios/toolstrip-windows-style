@@ -10,7 +10,7 @@ button svg {
     -webkit-user-drag: none;
 }
 
-#toolbar {
+.toolstrip {
     height: 32px;
     background: #1F1F1F;
     border-bottom: 1px solid #1F1F1F;
@@ -20,7 +20,7 @@ button svg {
     gap: 2px;
 }
 
-#toolbar button {
+.toolstrip button {
     width: 26px;
     height: 26px;
     padding: 0 8px;
@@ -34,19 +34,18 @@ button svg {
     cursor: pointer;
 }
 
-#toolbar button img {
+.toolstrip button img {
     width: 16px;
     height: 16px;
 }
 
-#toolbar button:hover {
+.toolstrip button:hover {
     background: rgba(255, 255, 255, 0.06);
     border-color: rgba(255, 255, 255, 0.15);
-
     border-radius: 3px;
 }
 
-#toolbar button:active {
+.toolstrip button:active {
     background: #363636;
 }
 
