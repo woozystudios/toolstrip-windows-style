@@ -1,0 +1,17 @@
+{
+  "name": "toolstrip-windows-style",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "",
+  "scripts": {
+    "start": "electronmon ."
+  },
+  "author": "WoozyStudio <woozystudiocontact@gmail.com>",
+  "private": true,
+  "devDependencies": {
+    "electron": "39.2.6"
+  },
+  "dependencies": {
+    "electronmon": "2.0.4"
+  }
+}

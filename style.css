@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+button img,
+button svg {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+#toolbar {
+    height: 32px;
+    background: #1F1F1F;
+    border-bottom: 1px solid #1F1F1F;
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    gap: 2px;
+}
+
+#toolbar button {
+    width: 26px;
+    height: 26px;
+    padding: 0 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#toolbar button img {
+    width: 16px;
+    height: 16px;
+}
+
+#toolbar button:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.15);
+
+    border-radius: 3px;
+}
+
+#toolbar button:active {
+    background: #363636;
+}
+
+.separator {
+    width: 1px;
+    height: 20px;
+    background: #767676;
+    margin: 0 4px;
+}
+
+#content {
+    padding: 15px;
+}
