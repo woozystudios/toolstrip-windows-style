@@ -4,12 +4,37 @@
   "main": "main.js",
   "description": "",
   "scripts": {
-    "start": "electronmon ."
+    "start": "electronmon .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.woozystudio.toolstrip-windows-style",
+    "productName": "ToolStrip Windows Style",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
   },
   "author": "WoozyStudio <woozystudiocontact@gmail.com>",
   "private": true,
   "devDependencies": {
-    "electron": "39.2.6"
+    "electron": "39.2.6",
+    "electron-builder": "^26.0.12"
   },
   "dependencies": {
     "electronmon": "2.0.4"
